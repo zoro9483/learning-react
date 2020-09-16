@@ -1,32 +1,24 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 import Person from "./Person/Person";
 
-
 class App extends Component{
-  render (){
-    return (
-      <div className='App'>
-           <h1>hi, i'm a react app made by osama</h1>
-           <p>this is realy working</p>
-           <Person name='Max'age='28'/>
-           <Person name='Manu' age='29'>my Hobbies: Racing</Person>
-           <person name='stephanie' age='26'/>
-      </div>
-    );
+   render (){
+     return (
+       <div className='App'>
+            <h1>hi, i'm a react app made by osama</h1>
+            <p>this is realy working</p>
+            <Person name='Max'age='28'/>
+            <Person name='Manu' age='29'>my Hobbies: Racing</Person>
+            <Person name='eeeeeeeeeeeeee' age='56'/>
+            <Person name='stephanie'age='26'/>
+       </div>
+     );
+   }
 
-  }
 }
-
-
+ 
 export default App;
-
-
-
-
-
-
-
 
 
 
@@ -188,9 +180,6 @@ export default App;
 //   }
 // }
 
-
-
-
-
+// export default App;
 
 
